@@ -1,0 +1,23 @@
+#+title: Poniendo a funcionar la pico
+
+Esto es principalmente una colección de todo lo que voy haciendo
+pasito a pasito por si me es útil en el futuro. Salvo que señale otra
+fuente estoy siguiendo el manual [[https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf][Raspberry Pi Pico C/C++ SDK]]
+
+* Instalación de la toolchain:
+  Esto es sencillamente una lista de comandos brew para instalar todo
+  lo necesario. A saber:
+  
+  #+BEGIN_SRC shell
+    brew install cmake
+    brew tap ArmMbed/homebrew-formulae
+    brew install arm-none-eabi-gcc
+  #+END_SRC
+
+  La instalación se hace sin pena sin gloria y una vez con esto ya se
+  puede tirar pa alante sin más problema!
+
+* Encender un led!
+  Vamos ahora a encender el led de la pico.
+
+  
